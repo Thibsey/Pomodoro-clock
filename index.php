@@ -17,20 +17,24 @@
         <h1>Pomodoro Clock</h1>
         <div class="timeDiv"> 
             <h1 id="title1"> Session Time </h1>  
-            <a href="#" class="btn btn-primary" id="minus5Clock">-</a>
             <h2 id="timeType"></h2>
-            <h2 id="num"> 25 </h2>
-            <a href="#" class="btn btn-primary" id="add5Clock">+</a>
-            <a href="#" class="btn btn-primary" id="reset">Reset</a>
+            <h2 id="num"> 25 </h2><br>
+            <a href="#" class="btn btn-dark" id="minus1Clock">- 1</a>
+            <a href="#" class="btn btn-dark" id="minus5Clock">- 5</a> &nbsp; &nbsp; &nbsp; 
+            <a href="#" class="btn btn-dark" id="add5Clock">+ 5</a>
+            <a href="#" class="btn btn-dark" id="add1Clock">+ 1</a>
         </div>
         <div id="breakDiv"> 
             <h1 id="title1"> Break Time </h1>  
-            <a href="#" class="btn btn-primary" id="minus5Break">-</a>
             <h2 id="timeType2"></h2>
-            <h2 id="breakNum"> 25 </h2>
-            <a href="#" class="btn btn-primary" id="add5Break">+</a>
+            <h2 id="breakNum"> 25 </h2><br>
+            <a href="#" class="btn btn-dark" id="minus1Break">- 1</a>
+            <a href="#" class="btn btn-dark" id="minus5Break">- 5</a> &nbsp; &nbsp; &nbsp; 
+            <a href="#" class="btn btn-dark" id="add5Break">+ 5 </a>
+            <a href="#" class="btn btn-dark" id="add1Break">+ 1 </a>
         </div>
-        <a href="#" class="btn btn-primary" id="start">Start</a>
+        <a href="#" class="btn btn-dark" id="start">Start</a>
+        <a href="#" class="btn btn-dark" id="reset">Reset</a>
     </div>
 </body>
 </html>
